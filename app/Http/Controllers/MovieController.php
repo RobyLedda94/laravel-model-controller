@@ -14,8 +14,8 @@ class MovieController extends Controller
 
         // richiamo la tabella del db
         $movies = Movie::all();
-        dd($movies);
+        // dd($movies);
 
-        return view('movies.index', compact('title', 'description'));
+        return view('movies.index', compact('title', 'description', 'movies'));
     }
 }
