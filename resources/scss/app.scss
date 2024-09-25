@@ -13,7 +13,14 @@ header {
 main {
     background-color: #70afb9;
 
-    .card-id {
-        background-color: #70afb9;
+    .card {
+        min-height: 355px;
+
+
+        .card-id {
+            background-color: #70afb9;
+        }
     }
+
+
 }

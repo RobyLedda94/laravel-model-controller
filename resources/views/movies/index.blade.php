@@ -8,9 +8,14 @@
                     <h2 class="my-4">{{$title}}</h2>
                     <p class="mb-3">{{$description}}</p>
                 </div>
-                @foreach($movies as $movie)
-                <div class="col-12">
-                    <div class="card my-2">
+            </div>
+        </div>
+    </div>
+    <div class="container pb-4">
+        <div class="row">
+        @foreach($movies as $movie)
+                <div class="col-12 col-md-6 col-lg-3">
+                    <div class="card my-2 py-3">
                         <div class="card-body">
                             <div class="card-id p-3 mb-3 rounded"><strong>{{ $movie->id }}.</strong></div>
                             <h3 class="card-subtitle mb-2">Titolo: {{ $movie->title }}</h3>
@@ -21,8 +26,7 @@
                         </div>
                     </div>
                 </div>
-                @endforeach
-            </div>
+            @endforeach
         </div>
     </div>
 @endsection
