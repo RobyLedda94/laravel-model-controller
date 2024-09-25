@@ -8,7 +8,7 @@
                     <ul class="list-unstyled d-flex justify-content-center">
                         <li class="px-3 py-3"><a class="nav-link" href="{{route('homepage')}}">Home</a></li>
                         <li class="px-3 py-3"><a class="nav-link" href="#">Movies</a></li>
-                        <li class="px-3 py-3"><a class="nav-link" href="#">Contacts</a></li>
+                        <li class="px-3 py-3"><a class="nav-link" href="{{route('contacts')}}">Contacts</a></li>
                     </ul>
                 </div>
             </div>

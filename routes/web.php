@@ -19,4 +19,10 @@ use App\Http\Controllers\PageController as PageController;
 //     return view('home');
 // });
 
-Route::get('/', [PageController::class, 'index'])->name('homepage');
+
+// rotta per la homepage
+Route::get('/', [PageController::class, 'home'])->name('homepage');
+// rotta per i contatti
+Route::get('/contacts', [PageController::class, 'contacts'])->name('contacts');
+
+
