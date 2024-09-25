@@ -12,7 +12,7 @@ class PageController extends Controller
     //creo la public function all'interno di PageController per la homepage
     public function home(){
         $title = 'Questa è la nostra Home Page';
-        $description = 'Scegli i tuoi film preferiti';
+        $description = 'Prova ad esplorare il nostro sito';
         return view('home', compact('title', 'description'));
     }
 
