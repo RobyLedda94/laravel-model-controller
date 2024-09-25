@@ -4,8 +4,11 @@
     <div class="container">
         <div class="row">
             <div class="col-12">
-                <h3>Lista dei Film :</h3>
-                <p>Qua saranno ciclati i dati che recupero dal DB</p>
+                <div class="content-home text-center mt-3">
+                    <!-- recupero le chiavi dal file PageController -->
+                    <h2 class="my-5">{{$title}}</h2>
+                    <p>{{$description}}</p>
+                </div>
             </div>
         </div>
     </div>
