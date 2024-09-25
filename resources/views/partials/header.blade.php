@@ -6,7 +6,7 @@
                 </div>
                 <div class="col-12">
                     <ul class="list-unstyled d-flex justify-content-center">
-                        <li class="px-3 py-3"><a class="nav-link" href="#"></a>Home</li>
+                        <li class="px-3 py-3"><a class="nav-link" href="{{route('homepage')}}"></a>Home</li>
                         <li class="px-3 py-3"><a class="nav-link" href="#"></a>Movies</li>
                         <li class="px-3 py-3"><a class="nav-link" href="#"></a>Contacts</li>
                     </ul>

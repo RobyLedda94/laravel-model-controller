@@ -4,10 +4,15 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 
+
+
+// classe PageController
 class PageController extends Controller
 {
-    //creo il metodo index
+    //creo la public function all'interno di PageController
     public function index(){
-        return view('home');
+        $title = 'Homepage';
+        $description = 'Prova controller';
+        return view('home', compact('title', 'description'));
     }
 }
